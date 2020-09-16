@@ -157,9 +157,10 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E26-CD-Q8W">
-                                <rect key="frame" x="184" y="117" width="46" height="30"/>
+                                <rect key="frame" x="166" y="115" width="89" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Register"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -177,6 +178,7 @@
                         <outlet property="Choice_ans" destination="N9c-NR-CFm" id="fj1-Ae-yZO"/>
                         <outlet property="Commentary" destination="0jP-1f-6sY" id="Tfn-6j-yn4"/>
                         <outlet property="Qsentences" destination="U8i-3a-Jd4" id="FmN-JK-LPk"/>
+                        <outlet property="RegisterButton" destination="E26-CD-Q8W" id="5e4-ae-DXP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7CJ-3I-SOu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
